@@ -48,6 +48,13 @@ h1 {
 #project03 h2 {
     color: #F5876F;
 }
+#project02 {
+    transition: background-color 0.3s linear;
+}
+#project02.active {
+    background-color: #e9f0f2;
+}
+
 #main {
     position: relative;
     background-color: #FFF;
